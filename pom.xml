@@ -42,9 +42,13 @@
                     </goals>
                 </execution>
             </executions>
-            <configuration>
-                <mainClass>com.igalia.wordcount.App</mainClass>
-            </configuration>
+	    <configuration>
+              <mainClass>com.javacodegeeks.examples.wordcount.WordCount</mainClass>
+              <arguments>
+                  <argument>Input.txt</argument>
+                  <argument>output.txt</argument>
+              </arguments>
+          </configuration>
         </plugin>
     </plugins>
 </build>
